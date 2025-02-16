@@ -1821,11 +1821,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -2208,9 +2208,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
