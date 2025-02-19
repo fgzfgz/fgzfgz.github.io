@@ -998,13 +998,13 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
@@ -1825,13 +1825,13 @@
             
             <tag> CLDS </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
@@ -1933,7 +1933,7 @@
       <link href="/posts/16796/"/>
       <url>/posts/16796/</url>
       
-        <content type="html"><![CDATA[<h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><p>链接:  <a href="https://pan.baidu.com/s/1r5LkvxGu3uAtYBxRiLL1jw?pwd=vmgi">百度网盘下载链接</a></p><p>提取码: vmgi</p><h3 id="书籍清单"><a href="#书籍清单" class="headerlink" title="书籍清单"></a>书籍清单</h3><ol><li>陈强《高级计量经济学及Stata应用 (第2版)》，PDF 书籍、勘误表、案例数据与课件</li><li>乔舒亚 · 安格里斯特《基本无害的计量经济学：实证研究者指南》，<strong>中文版</strong></li><li>Joshua D. Angrist &amp; Jörn-Steffen Pischke《 <em>Mostly Harmless Econometrics An Empiricist’s Companion</em> 》, <strong>英文版</strong></li><li>赵西亮《基本有用的计量经济学》</li><li>杰弗里 · M · 伍德里奇《计量经济学导论 (第四版) 》, <strong>中文版</strong></li><li>Peng Ding《A First Course in Causal Inference》，<strong>英文版</strong><ul><li>预印本PDF</li><li>对应附件：R代码、数据</li></ul></li><li>Jeffrey M. Wooldridge《 <em>Introductory Econometrics: A Modern Approach</em> 》4th - 7th edition, <strong>英文版</strong></li><li>邱嘉平《因果推断实用计量方法》</li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第一版</strong>, <strong>中文版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》<ul><li>中文版：用 Stata 学微观计量经济学，第一版，2015年出版</li><li>英文版：<em>Microeconometrics Using Stata</em>，第一版，2009年出版</li><li>英文版对应附件：Do文件、dta数据</li></ul></li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第二版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li><li>Bruce E. Hansen 《 <em>Econometrics</em> (2021) 》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Bruce E. Hansen 《 <em>Intro to Econometrics</em> (2021)  》, <strong>英文版</strong></li><li>Bruce E. Hansen《<em>Probability and Statistics for Economists</em>》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Miguel A. Hernán &amp; James M. Robns 《 <em>Causal Inference: What If</em> 》, <strong>英文版</strong>, PDF 书籍、代码与案例数据</li><li>Leo Krippner 《 <em>Zero Lower Bound Term Structure Modeling</em> 》, <strong>英文版</strong></li><li>王孟成，毕向阳《潜变量建模与 Mplus 应用：进阶篇》</li><li>A. H. Studenmund《<em>Using Econometrics: A Practical Guide</em>》6th edition, <strong>英文版</strong></li><li><strong>另附：R 语言学习相关书籍 20 本</strong></li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><p>链接:  <a href="https://pan.baidu.com/s/1r5LkvxGu3uAtYBxRiLL1jw?pwd=vmgi">百度网盘下载链接</a></p><p>提取码: vmgi</p><h3 id="书籍清单"><a href="#书籍清单" class="headerlink" title="书籍清单"></a>书籍清单</h3><ol><li>陈强《高级计量经济学及Stata应用 (第2版)》，PDF 书籍、勘误表、案例数据与课件</li><li>乔舒亚 · 安格里斯特《基本无害的计量经济学：实证研究者指南》，<strong>中文版</strong></li><li>Joshua D. Angrist &amp; Jörn-Steffen Pischke《 <em>Mostly Harmless Econometrics An Empiricist’s Companion</em> 》, <strong>英文版</strong></li><li>乔舒亚 · 安格里斯特, 约恩 - 斯蒂芬 · 皮施克《精通计量：从原因到结果的探寻之旅》，<strong>中文版</strong>和<strong>英文版</strong><ul><li><strong>中文版</strong>：2019年出版，格致出版社，上海三联书店，上海人民出版社</li><li><strong>英文版</strong>：2015年出版，Princeton University Press</li></ul></li><li>赵西亮《基本有用的计量经济学》</li><li>杰弗里 · M · 伍德里奇《计量经济学导论 (第四版) 》, <strong>中文版</strong></li><li>Peng Ding《A First Course in Causal Inference》，<strong>英文版</strong><ul><li>预印本PDF</li><li>对应附件：R代码、数据</li></ul></li><li>Jeffrey M. Wooldridge《 <em>Introductory Econometrics: A Modern Approach</em> 》4th - 7th edition, <strong>英文版</strong></li><li>邱嘉平《因果推断实用计量方法》</li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第一版</strong>, <strong>中文版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》<ul><li>中文版：用 Stata 学微观计量经济学，第一版，2015年出版</li><li>英文版：<em>Microeconometrics Using Stata</em>，第一版，2009年出版</li><li>英文版对应附件：Do文件、dta数据</li></ul></li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第二版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li><li>Bruce E. Hansen 《 <em>Econometrics</em> (2021) 》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Bruce E. Hansen 《 <em>Intro to Econometrics</em> (2021)  》, <strong>英文版</strong></li><li>Bruce E. Hansen《<em>Probability and Statistics for Economists</em>》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Miguel A. Hernán &amp; James M. Robns 《 <em>Causal Inference: What If</em> 》, <strong>英文版</strong>, PDF 书籍、代码与案例数据</li><li>Leo Krippner 《 <em>Zero Lower Bound Term Structure Modeling</em> 》, <strong>英文版</strong></li><li>王孟成，毕向阳《潜变量建模与 Mplus 应用：进阶篇》</li><li>A. H. Studenmund《<em>Using Econometrics: A Practical Guide</em>》6th edition, <strong>英文版</strong></li><li><strong>另附：R 语言学习相关书籍 20 本</strong></li></ol>]]></content>
       
       
       <categories>
@@ -2119,9 +2119,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -2208,9 +2208,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -2291,9 +2291,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -3539,33 +3539,6 @@
     
     
     <entry>
-      <title>实证｜取对数问题</title>
-      <link href="/posts/16760/"/>
-      <url>/posts/16760/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一、什么时候应该取对数？"><a href="#一、什么时候应该取对数？" class="headerlink" title="一、什么时候应该取对数？"></a>一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y 取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X 取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4 万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为 0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1 元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为 0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于 0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于 0 的样本被忽略。</p><p>　　‍</p><h2 id="二、如何解释取对数后的偏回归系数？"><a href="#二、如何解释取对数后的偏回归系数？" class="headerlink" title="二、如何解释取对数后的偏回归系数？"></a>二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y 取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" alt=""></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" alt=""></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" alt=""></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X 发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化 $\beta_1$。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X 发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 $\frac {\beta_1} {100}$。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时 <strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1 个单位，Y 的取值平均变化 $100\beta_1$%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时 <strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化 $\beta_1$%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X 的取值变化 1 单位（如取值增大 1），Y 的取值变化 $β_1$ 个单位（如均值增大 $β_1$ ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X 发生比例变化（变化 1%），Y 发生数值变化（变化 $\frac {\beta_1} {100}$）。</li></ul><hr><p><strong>相关链接：</strong></p><p><a href="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？- 知乎</a></p><p><a href="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读 stata 对于取对数的数据处理？- 知乎</a></p><p><a href="https://mp.weixin.qq.com/s/r2zUkgprfv4mSe9vi_---Q">计量经济圈 - 金融TOP3: log(1+Y)转换可能拒稿! (类)计数变量可以这么干！</a></p><p><a href="https://mp.weixin.qq.com/s/vEKwZZeUGDVHV3gPJEcI4w">连享会 - Stata：为什么计数类变量不宜采用log(1+y)的形式？-ppmlhdfe</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> Stata </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜为什么使用PSM消除样本选择偏差？</title>
       <link href="/posts/19130/"/>
       <url>/posts/19130/</url>
@@ -3585,6 +3558,33 @@
             <tag> 实证分析 </tag>
             
             <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜取对数问题</title>
+      <link href="/posts/16760/"/>
+      <url>/posts/16760/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、什么时候应该取对数？"><a href="#一、什么时候应该取对数？" class="headerlink" title="一、什么时候应该取对数？"></a>一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y 取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X 取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4 万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为 0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1 元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为 0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于 0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于 0 的样本被忽略。</p><p>　　‍</p><h2 id="二、如何解释取对数后的偏回归系数？"><a href="#二、如何解释取对数后的偏回归系数？" class="headerlink" title="二、如何解释取对数后的偏回归系数？"></a>二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y 取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" alt=""></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" alt=""></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" alt=""></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X 发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化 $\beta_1$。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X 发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 $\frac {\beta_1} {100}$。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时 <strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1 个单位，Y 的取值平均变化 $100\beta_1$%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时 <strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化 $\beta_1$%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X 的取值变化 1 单位（如取值增大 1），Y 的取值变化 $β_1$ 个单位（如均值增大 $β_1$ ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X 发生比例变化（变化 1%），Y 发生数值变化（变化 $\frac {\beta_1} {100}$）。</li></ul><hr><p><strong>相关链接：</strong></p><p><a href="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？- 知乎</a></p><p><a href="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读 stata 对于取对数的数据处理？- 知乎</a></p><p><a href="https://mp.weixin.qq.com/s/r2zUkgprfv4mSe9vi_---Q">计量经济圈 - 金融TOP3: log(1+Y)转换可能拒稿! (类)计数变量可以这么干！</a></p><p><a href="https://mp.weixin.qq.com/s/vEKwZZeUGDVHV3gPJEcI4w">连享会 - Stata：为什么计数类变量不宜采用log(1+y)的形式？-ppmlhdfe</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> Stata </tag>
             
         </tags>
       
