@@ -22,15 +22,15 @@
             
             <tag> 实证分析 </tag>
             
-            <tag> 命令 </tag>
-            
-            <tag> 代码 </tag>
-            
             <tag> 变系数SFA </tag>
             
             <tag> SFA </tag>
             
             <tag> R </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 代码 </tag>
             
         </tags>
       
@@ -57,11 +57,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -262,9 +262,9 @@
       
         <tags>
             
-            <tag> 合成控制法 </tag>
-            
             <tag> 因果推断 </tag>
+            
+            <tag> 合成控制法 </tag>
             
             <tag> 视频 </tag>
             
@@ -881,11 +881,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -918,11 +918,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -955,11 +955,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CLDS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CLDS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -992,11 +992,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CLDS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
-            
-            <tag> CLDS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -1068,11 +1068,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -1103,11 +1103,11 @@
             
             <tag> 命令 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -1282,13 +1282,13 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -1319,11 +1319,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -1356,15 +1356,15 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CFPS </tag>
+            
+            <tag> CHFS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CFPS </tag>
-            
-            <tag> CHFS </tag>
             
             <tag> CSS </tag>
             
@@ -1513,11 +1513,11 @@
             
             <tag> 实证分析 </tag>
             
-            <tag> 收藏集锦 </tag>
-            
             <tag> 中介效应 </tag>
             
             <tag> 调节效应 </tag>
+            
+            <tag> 收藏集锦 </tag>
             
             <tag> 机制分析 </tag>
             
@@ -1730,13 +1730,13 @@
             
             <tag> 心得记录 </tag>
             
-            <tag> CFPS </tag>
-            
-            <tag> CLDS </tag>
-            
             <tag> 地理位置信息 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> CHFS </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> CHARLS </tag>
             
@@ -1858,15 +1858,15 @@
             
             <tag> CMDS </tag>
             
+            <tag> CFPS </tag>
+            
+            <tag> CLDS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CFPS </tag>
-            
-            <tag> CLDS </tag>
             
         </tags>
       
@@ -2243,9 +2243,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
