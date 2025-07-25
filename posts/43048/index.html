@@ -1,0 +1,287 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>软件｜macOS版Stata如何同时打开两个窗口 | FGZ的主页</title><meta name="author" content="FGZ"><meta name="copyright" content="FGZ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="（原文链接） macOS版的Stata默认状态下只能打开一个窗口，如果Stata已经打开了一个dta数据，再打开下一个时，会在之前的窗口中替换掉原来的dta数据。 不过，macOS可以通过打开多个Stata窗口的方式来解决「不能同时打开多个dta文件」的问题。  打开【终端.app】：在聚焦搜索里直接搜“终端”或者“terminal”，就行    在【终端.app】里输入下面代码：  1open">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软件｜macOS版Stata如何同时打开两个窗口">
+<meta property="og:url" content="https://fgzfgz.github.io/posts/43048/index.html">
+<meta property="og:site_name" content="FGZ的主页">
+<meta property="og:description" content="（原文链接） macOS版的Stata默认状态下只能打开一个窗口，如果Stata已经打开了一个dta数据，再打开下一个时，会在之前的窗口中替换掉原来的dta数据。 不过，macOS可以通过打开多个Stata窗口的方式来解决「不能同时打开多个dta文件」的问题。  打开【终端.app】：在聚焦搜索里直接搜“终端”或者“terminal”，就行    在【终端.app】里输入下面代码：  1open">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://fgzfgz.github.io/img/topimage.jpg">
+<meta property="article:published_time" content="2022-05-28T07:05:56.000Z">
+<meta property="article:modified_time" content="2023-03-15T13:55:54.800Z">
+<meta property="article:author" content="FGZ">
+<meta property="article:tag" content="Stata">
+<meta property="article:tag" content="软件相关">
+<meta property="article:tag" content="macOS">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://fgzfgz.github.io/img/topimage.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://fgzfgz.github.io/posts/43048/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.sukap.cn"/><meta name="google-site-verification" content="DWWqWjPUytI3RkNWoYmrVuQ0pENnG2IHC9YmqpYv-Is"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: '',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=true"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'true');
+</script><link rel="stylesheet" href="https://fgzfgz.github.io" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '软件｜macOS版Stata如何同时打开两个窗口',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-03-15 21:55'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">138</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">89</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/BiliBili/"><i class="fa-fw fas fa-brands fa-bilibili"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Share/"><i class="fa-fw fas fa-solid fa-file-arrow-down"></i><span> 资源共享</span></a></li><li><a class="site-page child" href="/Favorites/"><i class="fa-fw fas fa-bookmark"></i><span> 收藏集锦</span></a></li><li><a class="site-page child" href="/DataCleaning/"><i class="fa-fw fas fa-laptop"></i><span> 数据清洗</span></a></li><li><a class="site-page child" href="/EmpiRes/"><i class="fa-fw fas fa-chart-line"></i><span> 实证分析</span></a></li><li><a class="site-page child" href="/Data/"><i class="fa-fw fas fa-database"></i><span> 数据相关</span></a></li><li><a class="site-page child" href="/Economics/"><i class="fa-fw fas fa-solid fa-book-open"></i><span> 经济学笔记</span></a></li><li><a class="site-page child" href="/DevelopmentEconomics/"><i class="fa-fw fas fa-solid fa-book-open"></i><span> 发展经济学笔记</span></a></li><li><a class="site-page child" href="/Sustainable/"><i class="fa-fw fas fa-solid fa-seedling"></i><span> 可持续发展</span></a></li><li><a class="site-page child" href="/Opinion/"><i class="fa-fw fas fa-lightbulb"></i><span> 经济思考</span></a></li><li><a class="site-page child" href="/Software/"><i class="fa-fw fas fa-brands fa-uncharted"></i><span> 软件</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-solid fa-user"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('/img/topimage.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="FGZ的主页"><span class="site-name">FGZ的主页</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/BiliBili/"><i class="fa-fw fas fa-brands fa-bilibili"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Share/"><i class="fa-fw fas fa-solid fa-file-arrow-down"></i><span> 资源共享</span></a></li><li><a class="site-page child" href="/Favorites/"><i class="fa-fw fas fa-bookmark"></i><span> 收藏集锦</span></a></li><li><a class="site-page child" href="/DataCleaning/"><i class="fa-fw fas fa-laptop"></i><span> 数据清洗</span></a></li><li><a class="site-page child" href="/EmpiRes/"><i class="fa-fw fas fa-chart-line"></i><span> 实证分析</span></a></li><li><a class="site-page child" href="/Data/"><i class="fa-fw fas fa-database"></i><span> 数据相关</span></a></li><li><a class="site-page child" href="/Economics/"><i class="fa-fw fas fa-solid fa-book-open"></i><span> 经济学笔记</span></a></li><li><a class="site-page child" href="/DevelopmentEconomics/"><i class="fa-fw fas fa-solid fa-book-open"></i><span> 发展经济学笔记</span></a></li><li><a class="site-page child" href="/Sustainable/"><i class="fa-fw fas fa-solid fa-seedling"></i><span> 可持续发展</span></a></li><li><a class="site-page child" href="/Opinion/"><i class="fa-fw fas fa-lightbulb"></i><span> 经济思考</span></a></li><li><a class="site-page child" href="/Software/"><i class="fa-fw fas fa-brands fa-uncharted"></i><span> 软件</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-solid fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">软件｜macOS版Stata如何同时打开两个窗口</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-05-28T07:05:56.000Z" title="发表于 2022-05-28 15:05">2022-05-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-15T13:55:54.800Z" title="更新于 2023-03-15 21:55">2023-03-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6%E7%9B%B8%E5%85%B3/">软件相关</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="软件｜macOS版Stata如何同时打开两个窗口"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>（<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/534884194/answer/2505303719">原文链接</a>）</p>
+<p>macOS版的Stata默认状态下只能打开一个窗口，如果Stata已经打开了一个dta数据，再打开下一个时，会在之前的窗口中替换掉原来的dta数据。</p>
+<p>不过，macOS可以通过打开多个Stata窗口的方式来解决「不能同时打开多个dta文件」的问题。</p>
+<ol>
+<li>打开【终端.app】：在聚焦搜索里直接搜“终端”或者“terminal”，就行</li>
+</ol>
+<p><img src="https://pic1.zhimg.com/80/v2-bef02a4484840733d42b30be1cbaf9d7_1440w.jpg" alt=""></p>
+<ol>
+<li>在【终端.app】里输入下面代码：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open -n /Applications/Stata/StataSE.app</span><br></pre></td></tr></table></figure>
+<p>根据你安装的stata版本和安装路径修改，我同时安装了stata 17 MP 和stata 16 se，我就改为了</p>
+<p>Stata 17 MP：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open -n /Applications/Stata/StataMP.app</span><br></pre></td></tr></table></figure>
+<p>Stata 16 SE：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open -n /Applications/Stata 16/StataSE.app</span><br></pre></td></tr></table></figure>
+<ol>
+<li>这样就打开了两个窗口，就可以在另外一个窗口打开一个新文件了</li>
+</ol>
+<p><img src="https://pic2.zhimg.com/80/v2-32f67d77193318cb81b8c7cf2564fc44_1440w.jpg" alt=""></p>
+<p>怎么确定stata的安装路径？</p>
+<p>打开 Finder ，应用程序，看自己的stata安装路径就行。</p>
+<p><img src="https://pic1.zhimg.com/80/v2-4e824d7416352e20b6ceda999b10bf35_1440w.jpg" alt=""></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://fgzfgz.github.io">FGZ</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://fgzfgz.github.io/posts/43048/">https://fgzfgz.github.io/posts/43048/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">转载请联系作者，并注明文章来源 <a href="https://fgzfgz.github.io" target="_blank">https://fgzfgz.github.io</a></span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Stata/">Stata</a><a class="post-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6%E7%9B%B8%E5%85%B3/">软件相关</a><a class="post-meta__tags" href="/tags/macOS/">macOS</a></div><div class="post_share"><div class="social-share" data-image="/img/topimage.jpg" data-sites="wechat,qq,weibo,facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/35486/" title="宏观｜第10章：新古典宏观经济学与新凯恩斯主义经济学"><img class="cover" src="/img/topimage.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">宏观｜第10章：新古典宏观经济学与新凯恩斯主义经济学</div></div></a></div><div class="next-post pull-right"><a href="/posts/53788/" title="宏观｜第9章：宏观经济学的微观基础"><img class="cover" src="/img/topimage.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">宏观｜第9章：宏观经济学的微观基础</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/36956/" title="软件｜macOS zotero 深色模式下看不清文字"><img class="cover" src="/img/topimage.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-02</div><div class="title">软件｜macOS zotero 深色模式下看不清文字</div></div></a></div><div><a href="/posts/53567/" title="软件｜macOS 安装 Hexo 后无法识别"><img class="cover" src="/img/topimage.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-06</div><div class="title">软件｜macOS 安装 Hexo 后无法识别</div></div></a></div><div><a href="/posts/8427/" title="软件｜误删文件后 Zotero 打开报错"><img class="cover" src="/img/topimage.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-08</div><div class="title">软件｜误删文件后 Zotero 打开报错</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">FGZ</div><div class="author-info__description">道阻且长，行则将至</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">138</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">89</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/455889108"><i class="fas fa-brands fa-bilibili"></i><span>  关      注</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最近更新</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/38591/" title="教对象Stata系列｜第1课代码：软件介绍与数据管理"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="教对象Stata系列｜第1课代码：软件介绍与数据管理"/></a><div class="content"><a class="title" href="/posts/38591/" title="教对象Stata系列｜第1课代码：软件介绍与数据管理">教对象Stata系列｜第1课代码：软件介绍与数据管理</a><time datetime="2025-07-25T02:37:37.580Z" title="更新于 2025-07-25 10:37">2025-07-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/32992/" title="实证｜工具变量法的原理、使用和检验"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="实证｜工具变量法的原理、使用和检验"/></a><div class="content"><a class="title" href="/posts/32992/" title="实证｜工具变量法的原理、使用和检验">实证｜工具变量法的原理、使用和检验</a><time datetime="2025-06-05T07:48:57.400Z" title="更新于 2025-06-05 15:48">2025-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/23887/" title="数据清洗｜计算同侪效应"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据清洗｜计算同侪效应"/></a><div class="content"><a class="title" href="/posts/23887/" title="数据清洗｜计算同侪效应">数据清洗｜计算同侪效应</a><time datetime="2025-05-25T00:33:59.220Z" title="更新于 2025-05-25 08:33">2025-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/40668/" title="数据清洗｜样本等分组"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据清洗｜样本等分组"/></a><div class="content"><a class="title" href="/posts/40668/" title="数据清洗｜样本等分组">数据清洗｜样本等分组</a><time datetime="2025-05-25T00:33:29.230Z" title="更新于 2025-05-25 08:33">2025-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/47822/" title="实证｜变系数随机前沿分析的简明教程"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="实证｜变系数随机前沿分析的简明教程"/></a><div class="content"><a class="title" href="/posts/47822/" title="实证｜变系数随机前沿分析的简明教程">实证｜变系数随机前沿分析的简明教程</a><time datetime="2025-04-28T07:20:14.090Z" title="更新于 2025-04-28 15:20">2025-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/41378/" title="收藏｜实证与文献的账号推荐"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="收藏｜实证与文献的账号推荐"/></a><div class="content"><a class="title" href="/posts/41378/" title="收藏｜实证与文献的账号推荐">收藏｜实证与文献的账号推荐</a><time datetime="2025-04-24T13:32:41.530Z" title="更新于 2025-04-24 21:32">2025-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/16712/" title="资源分享｜经济学类书籍"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="资源分享｜经济学类书籍"/></a><div class="content"><a class="title" href="/posts/16712/" title="资源分享｜经济学类书籍">资源分享｜经济学类书籍</a><time datetime="2025-04-24T13:20:56.700Z" title="更新于 2025-04-24 21:20">2025-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/15726/" title="资源分享｜发展经济学类书籍"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="资源分享｜发展经济学类书籍"/></a><div class="content"><a class="title" href="/posts/15726/" title="资源分享｜发展经济学类书籍">资源分享｜发展经济学类书籍</a><time datetime="2025-04-24T13:00:58.730Z" title="更新于 2025-04-24 21:00">2025-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/52858/" title="资源分享｜农业经济类书籍"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="资源分享｜农业经济类书籍"/></a><div class="content"><a class="title" href="/posts/52858/" title="资源分享｜农业经济类书籍">资源分享｜农业经济类书籍</a><time datetime="2025-04-22T18:49:34.650Z" title="更新于 2025-04-23 02:49">2025-04-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/16796/" title="资源分享｜计量经济学类书籍"><img src="/img/topimage.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="资源分享｜计量经济学类书籍"/></a><div class="content"><a class="title" href="/posts/16796/" title="资源分享｜计量经济学类书籍">资源分享｜计量经济学类书籍</a><time datetime="2025-04-22T14:15:46.030Z" title="更新于 2025-04-22 22:15">2025-04-22</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/topimage.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2025 By FGZ</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'jsVAsGoLh4uzI2G5L4KNVxy4-gzGzoHsz',
+      appKey: 'O0Kgf1B5rJVcWBvt1vVvsRQd',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script async data-pjax src="//busuanzi.sukap.cn/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>
