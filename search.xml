@@ -65,8 +65,6 @@
             
             <tag> 代码 </tag>
             
-            <tag> 相关性 </tag>
-            
             <tag> 工具变量 </tag>
             
             <tag> 工具变量检验 </tag>
@@ -74,6 +72,8 @@
             <tag> 遗漏变量 </tag>
             
             <tag> 近似外生工具变量 </tag>
+            
+            <tag> 相关性 </tag>
             
             <tag> 外生性 </tag>
             
@@ -342,9 +342,9 @@
       
         <tags>
             
-            <tag> 因果推断 </tag>
-            
             <tag> 合成控制法 </tag>
+            
+            <tag> 因果推断 </tag>
             
             <tag> 视频 </tag>
             
@@ -1936,11 +1936,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
