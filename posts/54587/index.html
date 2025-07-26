@@ -178,8 +178,7 @@ gtag('config', 'true');
 <blockquote>
 <p>附件：</p>
 <ul>
-<li>录屏文件和 Do File
-下载链接：https://pan.baidu.com/s/1F07EPWBqXGRfrPpmnuVTIQ?pwd=9c6h</li>
+<li>录屏文件和 Do File 下载链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1F07EPWBqXGRfrPpmnuVTIQ?pwd=9c6h">https://pan.baidu.com/s/1F07EPWBqXGRfrPpmnuVTIQ?pwd=9c6h</a></li>
 <li><strong>⚠️特别注意：案例数据已做模糊化处理，不能匹配至CFPS原始数据，仅用于结果复现和学习使用。</strong></li>
 </ul>
 </blockquote>
@@ -207,7 +206,51 @@ function panguInit () {
   }
 }
 
-document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>function loadValine () {
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>function loadValine () {
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
