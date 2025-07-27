@@ -174,31 +174,14 @@ gtag('config', 'true');
 <p>　　软件版本：最新版 Zotero 6.0.15</p>
 <p>　　硬件设备：MacBook Pro 2020 13.3 英寸，M1 芯片</p>
 <p>　　故障时间：2022 年 10 月 8 日</p>
-<p>　　前段时间，我在 terminal.app 中使用命令不慎删除了 Application
-Support
-文件夹中的一些系统和软件支持文件，导致系统出错，各种软件无法正常使用。在打开
-Zotero 时，也出现了如下报错。</p>
+<p>　　前段时间，我在 terminal.app 中使用命令不慎删除了 Application Support 文件夹中的一些系统和软件支持文件，导致系统出错，各种软件无法正常使用。在打开 Zotero 时，也出现了如下报错。</p>
 <p>　　报错内容是：</p>
 <blockquote>
-<p>[Exception... "Component returned failure code: 0x80520005
-(NS_ERROR_FILE_DESTINATION_NOT_DIR) [nsIFile.create]" nsresult:
-"0x80520005 (NS_ERROR_FILE_DESTINATION_NOT_DIR)" location: "JS frame ::
-chrome://zotero/content/xpcom/ipc.js :: Zotero.IPC&lt;/this.init :: line
-36" data: no]<br />
-Zotero.IPC&lt;/this.init@chrome://zotero/content/xpcom/ipc.js:36:9<br />
-this.init&lt;<span class="citation"
-data-cites="chrome://zotero/content/xpcom/zotero.js:372:7">@chrome://zotero/content/xpcom/zotero.js:372:7</span><br />
-From previous event:<br />
-ZoteroService@file:///Applications/Zotero.app/Contents/Resources/components/zotero-service.js:346:7<br />
-<span class="citation"
-data-cites="chrome://zotero/content/include.js:4:14">@chrome://zotero/content/include.js:4:14</span></p>
+<p>[Exception… “Component returned failure code: 0x80520005 (NS_ERROR_FILE_DESTINATION_NOT_DIR) [nsIFile.create]”  nsresult: “0x80520005 (NS_ERROR_FILE_DESTINATION_NOT_DIR)”  location: “JS frame :: chrome://zotero/content/xpcom/ipc.js :: Zotero.IPC&lt;/this.init :: line 36”  data: no]<br>Zotero.IPC&lt;/this.init@chrome://zotero/content/xpcom/ipc.js:36:9<br>this.init&lt;@chrome://zotero/content/xpcom/zotero.js:372:7<br>From previous event:<br>ZoteroService@file:///Applications/Zotero.app/Contents/Resources/components/zotero-service.js:346:7<br>@chrome://zotero/content/include.js:4:14</p>
 </blockquote>
-<p>　　<img
-src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20221008165122-42bktpw.png"
-alt="image" /></p>
+<p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20221008165122-42bktpw.png" alt="image"></p>
 <p>　　尝试过以下操作，没有解决问题：</p>
-<p>　　从报错内容上看，应该是 Edge 浏览器插件出错了，导致 Zotero
-无法正常使用。因此我尝试了以下操作：</p>
+<p>　　从报错内容上看，应该是 Edge 浏览器插件出错了，导致 Zotero 无法正常使用。因此我尝试了以下操作：</p>
 <ul>
 <li>卸载 zotero 和 zotero connector 插件，重新安装软件和插件；</li>
 <li>重启 MacBook，再打开 zotero。</li>
@@ -206,14 +189,9 @@ alt="image" /></p>
 <p>　　上述操作没能解决问题。在上述两个操作无果后，我进行了如下操作：</p>
 <ul>
 <li>卸载刚才安装的 Zotero</li>
-<li>打开
-Finder，使用快捷键「shift+command+G」，打开「Users/username/Library/Application
-Support」文件夹，删除了其中的 Zotero 文件夹</li>
-<li>重新安装 Zotero，并在 Edge 浏览器中重新安装了 Zotero connector
-插件</li>
-<li>打开 Zotero 后，直接打开 Zotero 的设置（快捷键：command+
-逗号），在「首选项—高级—文件和文件夹—数据存储位置」中，将数据存储位置自定义为已经同步到本地的坚果云同步文件夹中的
-Zotero</li>
+<li>打开 Finder，使用快捷键「shift+command+G」，打开「Users/username/Library/Application Support」文件夹，删除了其中的 Zotero 文件夹</li>
+<li>重新安装 Zotero，并在 Edge 浏览器中重新安装了 Zotero connector 插件</li>
+<li>打开 Zotero 后，直接打开 Zotero 的设置（快捷键：command+ 逗号），在「首选项—高级—文件和文件夹—数据存储位置」中，将数据存储位置自定义为已经同步到本地的坚果云同步文件夹中的 Zotero</li>
 <li>重启 Zotero， 成功解决问题。</li>
 </ul>
 <p>　　‍</p>
