@@ -22,13 +22,13 @@
             
             <tag> 实证分析 </tag>
             
+            <tag> Stata </tag>
+            
             <tag> 双重差分 </tag>
             
             <tag> DID </tag>
             
             <tag> 安慰剂检验 </tag>
-            
-            <tag> Stata </tag>
             
             <tag> 命令 </tag>
             
@@ -1936,11 +1936,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -2048,7 +2048,7 @@
       <link href="/posts/16796/"/>
       <url>/posts/16796/</url>
       
-        <content type="html"><![CDATA[<h3 id="下载链接">下载链接</h3><p>链接: <a href="https://pan.baidu.com/s/1r5LkvxGu3uAtYBxRiLL1jw?pwd=vmgi">百度网盘下载链接</a></p><p>提取码: vmgi</p><h3 id="书籍清单">书籍清单</h3><ol type="1"><li>陈强《高级计量经济学及Stata应用 (第2版)》，PDF 书籍、勘误表、案例数据与课件</li><li>乔舒亚 · 安格里斯特《基本无害的计量经济学：实证研究者指南》，<strong>中文版</strong></li><li>Joshua D. Angrist &amp; Jörn-Steffen Pischke《 <em>Mostly Harmless Econometrics An Empiricist’s Companion</em> 》, <strong>英文版</strong></li><li>乔舒亚 · 安格里斯特, 约恩 - 斯蒂芬 · 皮施克《精通计量：从原因到结果的探寻之旅》，<strong>中文版</strong>和<strong>英文版</strong><ul><li><strong>中文版</strong>：2019年出版，格致出版社，上海三联书店，上海人民出版社</li><li><strong>英文版</strong>：2015年出版，Princeton University Press</li></ul></li><li>赵西亮《基本有用的计量经济学》</li><li>杰弗里 · M · 伍德里奇《计量经济学导论 (第四版) 》, <strong>中文版</strong></li><li>Peng Ding《A First Course in Causal Inference》，<strong>英文版</strong><ul><li>预印本PDF</li><li>对应附件：R代码、数据</li></ul></li><li>Jeffrey M. Wooldridge《 <em>Introductory Econometrics: A Modern Approach</em> 》4th - 7th edition, <strong>英文版</strong></li><li>邱嘉平《因果推断实用计量方法》</li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第一版</strong>, <strong>中文版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li></ol><ul><li>中文版：用 Stata 学微观计量经济学，第一版，2015年出版</li><li>英文版：<em>Microeconometrics Using Stata</em>，第一版，2009年出版</li><li>英文版对应附件：Do文件、dta数据</li></ul><ol start="11" type="1"><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第二版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li><li>Bruce E. Hansen 《 <em>Econometrics</em> (2021) 》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Bruce E. Hansen 《 <em>Intro to Econometrics</em> (2021) 》, <strong>英文版</strong></li><li>Bruce E. Hansen《<em>Probability and Statistics for Economists</em>》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>William H. Greene 《<em>Econometric Analysis</em>》，8th Edition，<strong>英文版</strong></li><li>Miguel A. Hernán &amp; James M. Robns 《 <em>Causal Inference: What If</em> 》, <strong>英文版</strong>, PDF 书籍、代码与案例数据</li><li>Leo Krippner 《 <em>Zero Lower Bound Term Structure Modeling</em> 》, <strong>英文版</strong></li><li>王孟成，毕向阳《潜变量建模与 Mplus 应用：进阶篇》</li><li>A. H. Studenmund《<em>Using Econometrics: A Practical Guide</em>》6th edition, <strong>英文版</strong></li><li><strong>另附：R 语言学习相关书籍 20 本</strong></li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="下载链接">下载链接</h3><p>链接: <a href="https://pan.baidu.com/s/1r5LkvxGu3uAtYBxRiLL1jw?pwd=vmgi">百度网盘下载链接</a></p><p>提取码: vmgi</p><h3 id="书籍清单">书籍清单</h3><ol type="1"><li>陈强《高级计量经济学及Stata应用 (第2版)》，PDF 书籍、勘误表、案例数据与课件</li><li>乔舒亚 · 安格里斯特《基本无害的计量经济学：实证研究者指南》，<strong>中文版</strong></li><li>Joshua D. Angrist &amp; Jörn-Steffen Pischke《 <em>Mostly Harmless Econometrics An Empiricist’s Companion</em> 》, <strong>英文版</strong></li><li>乔舒亚 · 安格里斯特, 约恩 - 斯蒂芬 · 皮施克《精通计量：从原因到结果的探寻之旅》，<strong>中文版</strong>和<strong>英文版</strong><ul><li><strong>中文版</strong>：2019年出版，格致出版社，上海三联书店，上海人民出版社</li><li><strong>英文版</strong>：2015年出版，Princeton University Press</li></ul></li><li>赵西亮《基本有用的计量经济学》</li><li>杰弗里 · M · 伍德里奇《计量经济学导论：现代观点》, 第四版和第六版，<strong>中文版</strong></li><li>Peng Ding《A First Course in Causal Inference》，<strong>英文版</strong><ul><li>预印本PDF</li><li>对应附件：R代码、数据</li></ul></li><li>Jeffrey M. Wooldridge《 <em>Introductory Econometrics: A Modern Approach</em> 》4th - 7th edition, <strong>英文版</strong></li><li>邱嘉平《因果推断实用计量方法》</li><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第一版</strong>, <strong>中文版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li></ol><ul><li>中文版：用 Stata 学微观计量经济学，第一版，2015年出版</li><li>英文版：<em>Microeconometrics Using Stata</em>，第一版，2009年出版</li><li>英文版对应附件：Do文件、dta数据</li></ul><ol start="11" type="1"><li>Adrian Colin Cameron &amp; Pravin K. Trivedi《 <em>Microeconometrics Using Stata</em> 》, <strong>第二版</strong>, <strong>英文版</strong>, 译名《用 Stata 学微观计量经济学》</li><li>Bruce E. Hansen 《 <em>Econometrics</em> (2021) 》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>Bruce E. Hansen 《 <em>Intro to Econometrics</em> (2021) 》, <strong>英文版</strong></li><li>Bruce E. Hansen《<em>Probability and Statistics for Economists</em>》, <strong>英文版</strong><ul><li>课件、代码和数据</li><li>PDF电子书</li></ul></li><li>William H. Greene 《<em>Econometric Analysis</em>》，8th Edition，<strong>英文版</strong></li><li>Miguel A. Hernán &amp; James M. Robns 《 <em>Causal Inference: What If</em> 》, <strong>英文版</strong>, PDF 书籍、代码与案例数据</li><li>Leo Krippner 《 <em>Zero Lower Bound Term Structure Modeling</em> 》, <strong>英文版</strong></li><li>王孟成，毕向阳《潜变量建模与 Mplus 应用：进阶篇》</li><li>A. H. Studenmund《<em>Using Econometrics: A Practical Guide</em>》6th edition, <strong>英文版</strong></li><li><strong>另附：R 语言学习相关书籍 20 本</strong></li></ol>]]></content>
       
       
       <categories>
